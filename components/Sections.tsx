@@ -65,7 +65,7 @@ export function Team() {
   return <Wrap id="team" title="Small Team. Deep Technical Thinking. Real Ownership." sub="Meet the engineers who design, build and deploy intelligent solutions.">
     <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">{MEMBERS.map((m, i) => (
       <Reveal key={m.name} delay={i * 0.06}><article className={`${card} flex h-full flex-col`}>
-        <Avatar name={m.name} src={m.img} size={112} grayscale={false} />
+        <Avatar name={m.name} src={m.img} size={136} grayscale={false} />
         <div className="mt-5"><h3 className="text-xl font-semibold">{m.name}</h3><p className="text-sm text-brand">{m.role}</p>
           <div className="mt-3 flex flex-wrap gap-2">{m.chips.map(c => <Tag key={c} t={c} />)}</div>
           <p className="mt-4 text-sm leading-relaxed text-muted"><span className="font-medium text-ink">Role in the team: </span>{m.team}</p>
@@ -89,7 +89,7 @@ export function CtaFooter() {
       <p className="mt-5 text-sm text-muted">No pressure. Just a practical conversation about what you need.</p></Reveal>
     <div className="mt-12"><ContactForm /></div>
     <div className="mt-24 flex flex-col gap-4 border-t border-hair pt-8 text-sm text-muted md:flex-row md:items-center md:justify-between">
-      <span className="text-lg font-bold text-ink">{TEAM_NAME}<span className="text-brand">.</span></span>
+      <span className="text-lg font-bold text-ink">{TEAM_NAME}</span>
       <span>{LOCATION}. Open to remote and global clients.</span>
       <span>© {new Date().getFullYear()} {TEAM_NAME}</span>
     </div>

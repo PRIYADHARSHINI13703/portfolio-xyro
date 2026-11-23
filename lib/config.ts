@@ -1,5 +1,6 @@
 // Change the team name HERE only.
-export const TEAM_NAME = "ZYRO";
+export const TEAM_NAME = "Qubit.ai";
+export const LINKEDIN_URL = "https://www.linkedin.com/in/sujitha-a-421878451/";
 export const EMAIL = "tamilselvir932@gmail.com";
 export const LOCATION = "Coimbatore, Tamil Nadu, India";
 export const NAV = [["Home", "#home"], ["Services", "#services"], ["Work", "#work"], ["Team", "#team"]] as const;
@@ -32,14 +33,14 @@ export const CASES = [
 ];
 
 export const MEMBERS = [
-  { name: "Priyadharshini J V", role: "Applied AI Engineer", img: "/team/priyadharshini.jpg", li: "#",
+  { name: "Priyadharshini J V", role: "Applied AI Engineer", img: "/team/priyadharshini.jpg",
     chips: ["Python", "Prompt Engineering", "AI Models", "MCP", "Deep Learning"],
     team: "Designs and builds AI-powered applications, bringing together Python, AI models, prompt engineering and MCP integrations." },
-  { name: "Tamilselvi R", role: "Full-Stack AI Engineer & DevOps Engineer", img: "/team/tamilselvi.jpg", li: "#",
+  { name: "Tamilselvi R", role: "Full-Stack AI Engineer & DevOps Engineer", img: "/team/tamilselvi-sharp.webp",
     chips: ["Next.js", "UI/UX", "Python", "MCP", "DevOps"], team: "Builds full-stack AI experiences, from user-friendly interfaces to Python and MCP integrations, and supports deployment workflows." },
-  { name: "Sujitha A", role: "Data Analyst", img: "/team/sujitha.jpg", li: "#",
+  { name: "Sujitha A", role: "Data Analyst", img: "/team/sujitha.jpg",
     chips: ["Data Analysis", "Business Insights", "Data Visualisation", "Data Quality"], team: "Analyses business and operational data to surface useful insights and support informed decisions." },
-  { name: "Megalai S", role: "Frontend Developer", img: "/team/megalai.jpg", li: "#",
+  { name: "Megalai S", role: "Frontend Developer", img: "/team/megalai-sharp.webp",
     chips: ["Frontend Development", "Responsive UI", "Web Interfaces", "UI Implementation"], team: "Builds responsive, user-friendly frontend experiences with clear layouts and accessible interactions." },
 ];
 export const STACK = ["Python","FastAPI","LangChain","LangGraph","MCP","FAISS","Qdrant","PostgreSQL","Docker","Kubernetes","AWS","GCP","Azure","vLLM","Ollama"];

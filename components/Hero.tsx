@@ -29,7 +29,7 @@ export default function Hero() {
           <a href="#work" className={secondaryBtn}>Explore Our Work</a>
         </div>
       </div>
-      <div aria-label="ZYRO team portraits" className="relative mx-auto aspect-square w-full max-w-[500px]">
+      <div aria-label={`${TEAM_NAME} team portraits`} className="relative mx-auto aspect-square w-full max-w-[500px]">
         <span aria-hidden className="absolute inset-[3%] rounded-full bg-brand/[0.04] blur-2xl" />
         <motion.span aria-hidden className="absolute inset-[5%] rounded-full border-2 border-brand border-r-brand/20" initial={{ rotate: -120 }} animate={{ rotate: 0 }} transition={{ duration: 1.8, ease: "easeOut" }} />
         <span aria-hidden className="absolute inset-[10%] rounded-full border border-brand/15" />
